@@ -14,10 +14,10 @@ stages:
     params:
       params.yaml:
         prepare.seed: 42
-        prepare.test_size: 0.2
+        prepare.test_size: 0.25
     outs:
     - path: data/prepared
       hash: md5
-      md5: 75477f2ba420539a095c395aa6f9c187.dir
+      md5: 1168401392c81537fdc9cb6e8f4d7719.dir
       size: 121823
       nfiles: 2
